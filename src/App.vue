@@ -1,10 +1,8 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <p>Hello</p>
-    <h1 class="red">SUb 
-    </h1>
-      <p>d</p>
+   
+    <h1>My portfolio</h1>
+    
   </div>
 </template>
 
