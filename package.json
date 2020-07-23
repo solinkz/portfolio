@@ -6,11 +6,13 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "watch": "node-sass --watch public/scss/ -o public/css"
+    "watch": "node-sass src/assets/scss/main.scss src/assets/css/main.css -w"
   },
   "dependencies": {
+    "bootstrap": "^4.5.0",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-router": "^3.3.4"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",

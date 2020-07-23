@@ -1,0 +1,28 @@
+
+.avatar{
+    width: $avatarWidth;
+    height: $avatarHeight;
+    position: absolute;
+    top: 50%;
+    right: 2.4rem;
+    transform: translateY(-50%);
+
+    img{
+        width: 100%;
+        filter: grayscale(1) brightness(1.3) saturate(.1);
+        
+
+    }
+
+    &::before{
+        content: '';
+        display: block;
+        width: $avatarWidth;
+        height:  calc(#{$avatarHeight} / 1.2);
+        position: absolute;
+        top: 50%;
+        left: 2.4rem;
+        transform: translateY(-50%);
+        background-color: $primary;
+    }
+}

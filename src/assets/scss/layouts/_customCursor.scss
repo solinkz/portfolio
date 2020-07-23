@@ -1,0 +1,12 @@
+.custom-cursor{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border: 1px dashed rgba($primary, .2);
+    position: absolute;
+    z-index: 1000;
+    // top: 1rem;
+    // left: 1rem;
+    transition: top left .1s ease-in;
+    transform: rotate(45deg);
+}

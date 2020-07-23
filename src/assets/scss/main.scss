@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+@import 'abstract/variables';
+@import 'abstract/mixins';
+
+// bootstrap
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+//  base
+@import 'base/base';
+@import 'base/typography';
+
+// components
+@import 'components/avatar';
+@import 'components/button';
+
+// layoys
+
+@import 'layouts/customCursor';
+@import 'layouts/nav';
+
+// pagess
+@import 'pages/home';

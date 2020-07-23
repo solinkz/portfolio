@@ -1,0 +1,30 @@
+.navbar{
+    .nav-item{
+        padding-left: 1rem;
+        &:not(:last-child){
+            padding:0 1rem !important;
+        }
+        
+    }
+    .nav-link{
+        position: relative;
+        padding: .8rem 0 !important;
+        transition: all .3s;
+        
+
+            &:hover{
+                font-weight: 600;
+                // &::before{
+                //     content: '';
+                //     position: absolute;
+                //     height: 2px;
+                //     width: 10px;
+                //     display: block;
+                //     top: 0;
+                //     left: 0;
+                //     background-color: $primary;
+                    
+                // }
+            }
+    }
+}
