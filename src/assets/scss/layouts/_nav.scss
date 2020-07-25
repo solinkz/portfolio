@@ -1,4 +1,6 @@
 .navbar{
+    background-color: rgba($white, 0.5);
+    backdrop-filter: blur(4px);
     .nav-item{
         padding-left: 1rem;
         &:not(:last-child){

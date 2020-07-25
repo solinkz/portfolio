@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="hover-box" :class="{'active': showOffset}" :style="'left:'+offset+'px;'"></div>
         <div class="container">
 

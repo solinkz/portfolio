@@ -4,6 +4,11 @@ body{
     color: $gray-800;
     font-weight: 400;
 }
+
+h1,h2,h3,h4,h5{
+    color: $primary;
+    font-weight: 600;
+}
 h1{
     font-size: $h1-font-size;
     font-family: 'Josefin Sans', sans-serif;
@@ -21,4 +26,20 @@ h5{
 }
 p{
     color: $gray-800;
+}
+
+.heading-styled{
+    padding-bottom: 1rem;
+    position: relative;
+    margin-bottom: 5rem;
+    &::before{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 2px;
+        width: 57px;
+        height: 2px;
+        background-color: $primary;
+        display: block;
+    }
 }

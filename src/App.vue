@@ -1,11 +1,11 @@
 <template>
   <div id="app" @mousemove="activateCustomCursor" >
-    <vue-particles style="position: absolute; top: 0; left: 0"
+    <vue-particles style="position: absolute; top: 0; left: 0;"
         color="#dedede"
         :particleOpacity="0.7"
         :particlesNumber="80"
         shapeType="circle"
-        :particleSize="4"
+        :particleSize="8"
         linesColor="#dedede"
         :linesWidth="1"
         :lineLinked="true"
@@ -24,6 +24,7 @@
 
     <router-view></router-view>
     
+    <footer-component></footer-component>
                           
   </div>
 </template>
@@ -32,12 +33,14 @@
 
 import './assets/css/main.css';
 import navComponent from './components/nav';
+import footerComponent from './components/footer';
 // import customCursor from './components/utility/custom_cursor';
 
 export default {
   name: 'App',
   components: {
     navComponent,
+    footerComponent
     // customCursor
   },
   data(){
@@ -73,5 +76,10 @@ export default {
 <style >
   html{
     overflow-x: hidden;
+  }
+
+  .particles-js-canvas-el{
+    width: 100vw !important;
+    height: 100vh !important;
   }
 </style>

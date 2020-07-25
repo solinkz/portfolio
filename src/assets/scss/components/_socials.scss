@@ -3,26 +3,59 @@
     row-gap: .5rem;
     position: absolute;
     right: 3.5rem;
-    top: 50%;
-   
+    top: 30%;
+    // transition: all .3s;
+    // &:hover{
+    //     row-gap: 1rem;
+    // }
+    
+    @include minOf(tab){
+        right: 3.5rem;
+        top: 50%;
+        
+    }
+
     &::before{
         content: '';
-        height: 9rem;
+        height: 5rem;
         width: 1px;
         background-color: $gray-500;
         position: absolute;
         display: block;
         top: 4rem;
         left: 50%;
+        @include minOf(tab){
+            height: 9rem;
+           
+        }
     }
     &::after{
         content: '';
-        height: 9rem;
+        height: 5rem;
         width: 1px;
         background-color: $gray-500;
         position: absolute;
         display: block;
         bottom: 4rem;
         left: 50%;
+        @include minOf(tab){
+            
+            height: 9rem;
+        }
+    }
+
+    .social-ig,
+    .social-dr{
+        path{
+            fill: $gray-500;
+            transition: all .3s;
+        }
+
+        &:hover{
+            path{
+                fill: $gray-700;
+            }
+            
+        }
     }
 }
