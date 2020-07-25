@@ -7198,11 +7198,18 @@ h5 {
   font-weight: 600; }
 
 .subtitle {
-  font-size: 18px;
+  font-size: 1rem;
   color: #333333; }
+  @media (min-width: 48em) {
+    .subtitle {
+      font-size: 18px; } }
 
 p {
-  color: #333333; }
+  color: #333333;
+  font-size: .9rem; }
+  @media (min-width: 48em) {
+    p {
+      font-size: 1rem; } }
 
 .heading-styled {
   padding-bottom: 1rem;

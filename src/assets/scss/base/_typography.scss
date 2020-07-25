@@ -26,11 +26,21 @@ h5{
 }
 
 .subtitle{
-    font-size: $h5-font-size;
+    font-size: 1rem;
     color: $gray-800;
+    
+    @include minOf(tab){
+        font-size: $h5-font-size;
+
+    }
 }
 p{
     color: $gray-800;
+    font-size: .9rem;
+
+    @include minOf(tab){
+        font-size: 1rem;
+    }
 }
 
 .heading-styled{
