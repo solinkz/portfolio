@@ -140,7 +140,7 @@
                                 data-sal-delay="300"
                                 data-sal-duration="800"
                                 data-sal-easing="ease-out-bounce">
-                                <img src="https://picsum.photos/1000/1000?random=1">
+                                <img src="https://res.cloudinary.com/solinkz/image/upload/v1595717931/afgras-p1.jpg">
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -149,7 +149,7 @@
                                 data-sal-delay="300"
                                 data-sal-duration="800"
                                 data-sal-easing="ease-out-bounce">
-                                <img src="https://picsum.photos/1000/1000?random=2">
+                                <img src="https://res.cloudinary.com/solinkz/image/upload/v1595717931/ct-p2.jpg">
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -158,7 +158,7 @@
                                 data-sal-delay="300"
                                 data-sal-duration="800"
                                 data-sal-easing="ease-out-bounce">
-                                <img src="https://picsum.photos/1000/1000?random=3">
+                                <img src="https://res.cloudinary.com/solinkz/image/upload/v1595717931/schoolite-p3.jpg">
                             </div>
                         </div>
                     </div>
