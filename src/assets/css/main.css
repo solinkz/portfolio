@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&display=swap");
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -7173,12 +7175,13 @@ html {
   font-size: 16px; }
 
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #333333;
   font-weight: 400; }
 
 h1 {
   font-size: 48px;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: 700;
   color: #111111; }
 
@@ -7222,6 +7225,31 @@ p {
   .btn-cta:hover {
     text-decoration: none;
     column-gap: 1.2rem; }
+
+.socials {
+  display: inline-grid;
+  row-gap: .5rem;
+  position: absolute;
+  right: 3.5rem;
+  top: 50%; }
+  .socials::before {
+    content: '';
+    height: 9rem;
+    width: 1px;
+    background-color: #adb5bd;
+    position: absolute;
+    display: block;
+    top: 4rem;
+    left: 50%; }
+  .socials::after {
+    content: '';
+    height: 9rem;
+    width: 1px;
+    background-color: #adb5bd;
+    position: absolute;
+    display: block;
+    bottom: 4rem;
+    left: 50%; }
 
 .custom-cursor {
   display: inline-block;
