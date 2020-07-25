@@ -1,6 +1,36 @@
 .navbar{
-    background-color: rgba($white, 0.5);
+    background-color: rgba($white, 0.95);
     backdrop-filter: blur(4px);
+    padding: 1rem;
+    position: sticky;
+    width: 100%;
+    top: 0; 
+    left: 0;
+    z-index: 10;
+    @include minOf(tab){
+        padding: 1rem 0;
+    }
+
+
+    .navbar-collapse{
+       &.active{
+            display: block;
+            width: 100%;
+            position: absolute;
+            width: 100%;
+            top: 100px;
+            left: 0;
+            background-color: rgba($white, 0.95);
+            backdrop-filter: blur(4px);
+            padding: 2rem 1rem;
+            margin-top: -1rem;
+       }
+        
+        @include minOf(tab){
+            display: block;
+        }
+    }
+
     .nav-item{
         padding-left: 1rem;
         &:not(:last-child){

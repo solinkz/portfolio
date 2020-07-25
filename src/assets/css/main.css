@@ -7173,7 +7173,8 @@ a.text-dark:hover, a.text-dark:focus {
   box-sizing: border-box; }
 
 html {
-  font-size: 16px; }
+  font-size: 16px;
+  scroll-behavior: smooth; }
 
 body {
   font-family: 'Montserrat', sans-serif;
@@ -7185,10 +7186,13 @@ h1, h2, h3, h4, h5 {
   font-weight: 600; }
 
 h1 {
-  font-size: 48px;
+  font-size: calc(48px - 8px);
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 700;
   color: #111111; }
+  @media (min-width: 48em) {
+    h1 {
+      font-size: 48px; } }
 
 h5 {
   font-weight: 600; }
@@ -7308,8 +7312,31 @@ p {
   transform: rotate(45deg); }
 
 .navbar {
-  background-color: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(4px); }
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(4px);
+  padding: 1rem;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10; }
+  @media (min-width: 48em) {
+    .navbar {
+      padding: 1rem 0; } }
+  .navbar .navbar-collapse.active {
+    display: block;
+    width: 100%;
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(4px);
+    padding: 2rem 1rem;
+    margin-top: -1rem; }
+  @media (min-width: 48em) {
+    .navbar .navbar-collapse {
+      display: block; } }
   .navbar .nav-item {
     padding-left: 1rem; }
     .navbar .nav-item:not(:last-child) {

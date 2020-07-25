@@ -1,7 +1,7 @@
 <template>
     <div>
         <!-- Hero -->
-        <div class="hero">
+        <div class="hero" id="home">
             <div class="container">
             <div class="row hero-content position-relative">
                 <!-- image -->
@@ -72,7 +72,7 @@
 
         <!-- services -->
 
-        <div class="services">
+        <div class="services" id="services">
             <div class="services-decor"></div>
             <div class="services-content">
                 <div class="container">
@@ -128,7 +128,7 @@
 
         <!-- portfolio -->
 
-        <div class="portfolio">
+        <div class="portfolio" id="portfolio">
             <div class="portfolio-semi">
                 <div class="container">
                     <h3 class="heading-styled">My works</h3>
