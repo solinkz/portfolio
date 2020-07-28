@@ -1,0 +1,59 @@
+.portfolio{
+    background-color: $white;
+    padding: 6rem 0;
+
+    p{
+        font-size: .9rem;
+    }
+
+    &-intro{
+        margin-bottom: 4rem;
+    }
+
+    &-brief{
+        background-color: $gray-100;
+        padding: 3rem;
+        margin-bottom: 4rem;
+
+        .problem{
+            padding-right: 0;
+            @include minOf(tab){
+                border-right: 1px solid $gray-400;
+                padding-right: 3rem;
+            }
+        }
+        .role{
+            padding-left: 0;
+            @include minOf(tab){
+                padding-left: 3rem;
+            }
+        }
+    }
+
+    &-featured-image{
+        width: 100%;
+    }
+
+    &-process{
+        padding: 4rem 0;
+
+
+        &-stage{
+            margin-bottom: 7rem;
+            .title{
+                font-weight: 600;
+                color: $gray-700;
+            }
+            ol{
+                margin-left: 1rem;
+                margin-top: 2rem;
+
+                li{
+                    margin-bottom: 1rem;
+                    // display: block;
+                    color: $gray-600;
+                }
+            }
+        }
+    }
+}

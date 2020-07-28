@@ -7270,7 +7270,7 @@ p {
   display: inline-grid;
   row-gap: .5rem;
   position: absolute;
-  right: 3rem;
+  right: 1.5rem;
   top: 30%; }
   @media (min-width: 48em) {
     .socials {
@@ -7283,7 +7283,7 @@ p {
     background-color: #adb5bd;
     position: absolute;
     display: block;
-    top: 4rem;
+    top: 6rem;
     left: 50%; }
     @media (min-width: 48em) {
       .socials::before {
@@ -7295,17 +7295,19 @@ p {
     background-color: #adb5bd;
     position: absolute;
     display: block;
-    bottom: 4rem;
+    bottom: 6rem;
     left: 50%; }
     @media (min-width: 48em) {
       .socials::after {
         height: 9rem; } }
   .socials .social-ig path,
-  .socials .social-dr path {
+  .socials .social-dr path,
+  .socials .social-fi path {
     fill: #adb5bd;
     transition: all .3s; }
   .socials .social-ig:hover path,
-  .socials .social-dr:hover path {
+  .socials .social-dr:hover path,
+  .socials .social-fi:hover path {
     fill: #495057; }
 
 .custom-cursor {
@@ -7411,3 +7413,69 @@ p {
     transform: scale(1); }
     .portfolio-item img:hover {
       transform: scale(1.1); }
+
+.contact {
+  padding: 6rem 0;
+  background-color: #f8f9fa; }
+  .contact h2 {
+    margin-bottom: 10rem; }
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column; }
+    @media (min-width: 48em) {
+      .contact-info {
+        flex-direction: row; } }
+  .contact-social {
+    margin-top: 4rem; }
+    @media (min-width: 48em) {
+      .contact-social {
+        margin-top: 0; } }
+    .contact-social .icons {
+      display: inline-grid;
+      grid-template-columns: repeat(3, auto);
+      column-gap: 1rem; }
+    .contact-social a {
+      padding: 0; }
+      .contact-social a path {
+        fill: #adb5bd; }
+      .contact-social a:hover path {
+        fill: #495057; }
+
+.portfolio {
+  background-color: #ffffff;
+  padding: 6rem 0; }
+  .portfolio p {
+    font-size: .9rem; }
+  .portfolio-intro {
+    margin-bottom: 4rem; }
+  .portfolio-brief {
+    background-color: #f8f9fa;
+    padding: 3rem;
+    margin-bottom: 4rem; }
+    .portfolio-brief .problem {
+      padding-right: 0; }
+      @media (min-width: 48em) {
+        .portfolio-brief .problem {
+          border-right: 1px solid #ced4da;
+          padding-right: 3rem; } }
+    .portfolio-brief .role {
+      padding-left: 0; }
+      @media (min-width: 48em) {
+        .portfolio-brief .role {
+          padding-left: 3rem; } }
+  .portfolio-featured-image {
+    width: 100%; }
+  .portfolio-process {
+    padding: 4rem 0; }
+    .portfolio-process-stage {
+      margin-bottom: 7rem; }
+      .portfolio-process-stage .title {
+        font-weight: 600;
+        color: #495057; }
+      .portfolio-process-stage ol {
+        margin-left: 1rem;
+        margin-top: 2rem; }
+        .portfolio-process-stage ol li {
+          margin-bottom: 1rem;
+          color: #6c757d; }

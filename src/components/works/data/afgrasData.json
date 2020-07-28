@@ -1,0 +1,67 @@
+{
+    "title" : "Afgras",
+    "description": "AFGRAS is a sport organization that is primarily interested in Grassroot sport in Nigeria. They aim to become the No.1 Sport database for collecting sporting records in Nigeria. It caters for almost all sports in Nigeria and want to ensure that it collects all neccesary information from sport stakeholders in the country.",
+    "featuredImage": {
+        "url": "afgras-featured-image.jpg",
+        "caption": "Featured image showing a mockup of some part of the Landing page"
+    },
+    "problem":{
+        "description": "AFGRAS aims to collect all the record of all sport stakeholders in the country (Atheletes, Coaches, Fans, Medics, etc). The challenge is to create a system where all these people can come and register and have their information verified so it can be used in the future in the case of planning events or to pass information concerning upcoming activities.",
+        "role": "UI Designer , Frontend Developer"
+    },
+    "processes": [
+        {
+            "id" : 1,
+            "title": "Identifying areas that need more attention",
+            "addDescription" : true,
+            "image" : "",
+            "list" : [
+                "The Landing page needed to show that what the website truly was about",
+                "Since there are a lot of forms, I created a clean and reusable form styles",
+                "Forms for collecting Stakeholders information were well structured",
+                "Record management was needed to be made easier to track users",
+                "Make people aware at first glance what AFGRAS is about"
+            ]
+        },
+        {
+            "id" : 2,
+            "title": "Creating Style guides and typography",
+            "addDescription" : true,
+            "image" : "afgras-guide.jpg",
+            "caption": "Style guide and color pallete for AFGRAS"
+        },
+        {
+            "id" : 3,
+            "title": "High Fidelity Design",
+            "addDescription" : true,
+            "description": "",
+            "image" : "afgras-hifi.jpg",
+            "caption": "Screenshot of some screens for AFGRAS"
+        },
+        {
+            "id" : 4,
+            "title": "User flow prototyping",
+            "addDescription" : true,
+            "description": "",
+            "image" : "afgras-prototype.jpg",
+            "caption": "Screenshot of showing user flow prototyping"
+        },
+        {
+            "id" : 5,
+            "title": "User Testing",
+            "addDescription" : true,
+            "description": "After the Initial design process was completed, we ran some testing based on the prototype and made minor iterations were neccesary. This process didn't take long and the UI design was approved and ready for developement"
+            
+        },
+        {
+            "id" : 6,
+            "title": "Converting UI to code",
+            "addDescription" : true,
+            "description": "The completed Design was then used to start the development process. I made use of Vue.Js, Bootstrap and SASS to build the frontend of the web application. I started out with customizing bootstrap to ensure I set most of the bootstrap defaults to match the style guide of AFGRAS. With this it was easier to flow faster in converting all the screens designed into code. The use of components in Vue.js also ensured a smoother flow in the development process."
+            
+        }
+    ]
+}
+
+
+ 

@@ -1,28 +1,12 @@
 <template>
   <div id="app" @mousemove="activateCustomCursor" >
-    <vue-particles style="position: absolute; top: 0; left: 0;"
-        color="#dedede"
-        :particleOpacity="0.7"
-        :particlesNumber="80"
-        shapeType="circle"
-        :particleSize="8"
-        linesColor="#dedede"
-        :linesWidth="1"
-        :lineLinked="true"
-        :lineOpacity="0.4"
-        :linesDistance="150"
-        :moveSpeed="3"
-        :hoverEffect="true"
-        hoverMode="grab"
-        :clickEffect="true"
-        clickMode="push"
-      >
-      </vue-particles>
+   
     <!-- <div v-show="showCursor" class="custom-cursor" :style="'top:'+ cursorTop + 'px; left:' + cursorLeft + 'px;' "></div> -->
 
     <nav-component></nav-component>
-
-    <router-view></router-view>
+      <transition name="fade" mode="out-in">
+        <router-view></router-view>
+      </transition>
     
     <footer-component></footer-component>
                           
@@ -58,7 +42,7 @@ export default {
           this.cursorLeft = ev.clientX - 18;
           this.cursorTop = ev.clientY - 18;
         }, 150);
-        console.log(this.cursorTop +' '+ this.cursorLeft);
+        // console.log(this.cursorTop +' '+ this.cursorLeft);
         this.showCursor = true;
     }
   },
@@ -81,5 +65,11 @@ export default {
   .particles-js-canvas-el{
     width: 100vw !important;
     height: 100vh !important;
+  }
+  .fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+  }
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
   }
 </style>

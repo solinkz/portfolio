@@ -4,9 +4,9 @@
         <div class="container">
 
             <!-- <a class="navbar-brand" href="#">Solomon Eyitene</a> -->
-            <a class="navbar-brand" href="#">
+            <router-link class="navbar-brand" to="/">
                 <img :src="pathOrigin + '/images/graphlinkz.svg'" alt="" height="50">
-            </a>
+            </router-link>
             <button  @click="showNav = !showNav" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -14,7 +14,7 @@
             <div class="collapse navbar-collapse" :class="{'active': showNav == true}" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto" @mouseleave="showOffset = false">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#home" @mouseover="hover">Home<span class="sr-only">(current)</span></a>
+                        <router-link tag="a" class="nav-link" to="/home" @mouseover="hover">Home<span class="sr-only">(current)</span></router-link >
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#services"  @mouseover="hover">Services</a>

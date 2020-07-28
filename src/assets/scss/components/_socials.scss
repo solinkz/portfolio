@@ -2,7 +2,7 @@
     display: inline-grid;
     row-gap: .5rem;
     position: absolute;
-    right: 3rem;
+    right: 1.5rem;
     top: 30%;
     // transition: all .3s;
     // &:hover{
@@ -22,7 +22,7 @@
         background-color: $gray-500;
         position: absolute;
         display: block;
-        top: 4rem;
+        top: 6rem;
         left: 50%;
         @include minOf(tab){
             height: 9rem;
@@ -36,7 +36,7 @@
         background-color: $gray-500;
         position: absolute;
         display: block;
-        bottom: 4rem;
+        bottom: 6rem;
         left: 50%;
         @include minOf(tab){
             
@@ -45,7 +45,8 @@
     }
 
     .social-ig,
-    .social-dr{
+    .social-dr,
+    .social-fi{
         path{
             fill: $gray-500;
             transition: all .3s;

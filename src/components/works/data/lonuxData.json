@@ -1,0 +1,55 @@
+{
+    "title" : "Lonux",
+    "description": "Lonux is an application that aims to help people get the closest place to which they can get what they want to purchase.",
+    "featuredImage": {
+        "url": "lonux-featured-image.jpg",
+        "caption": "Featured image showing a mockup of Login page"
+    },
+    "problem":{
+        "description": "The challenge was to create a simple interface that feels like a simple search system where users can search for what they need and then get the location and direction to the closest place.",
+        "role": "UI Designer , Frontend Developer"
+    },
+    "processes": [
+        {
+            "id" : 1,
+            "title": "Creating Wireframes",
+            "addDescription" : true,
+            "image" : "lonux-wireframe.jpg",
+            "description": "Wireframe design"
+        },
+        {
+            "id" : 2,
+            "title": "Converting wireframes to High Fidelity design",
+            "addDescription" : true,
+            "image" : "lonux-hifi.jpg",
+            "caption": "High Fidelity design"
+        },
+        {
+            "id" : 3,
+            "title": "Creating the Mobile version of the WebApp",
+            "addDescription" : true,
+            "description": "We also came up with suitable means to represent the WebApp into a Mobile App that has the same feel as the Web version.",
+            "image" : "lonux-mobile.jpg",
+            "caption": "Mobile version of Lonux"
+        },
+        {
+            "id" : 4,
+            "title": "User flow prototyping",
+            "addDescription" : true,
+            "description": "",
+            "image" : "lonux-prototype.jpg",
+            "caption": "Screenshot of showing user flow prototyping"
+        },
+       
+        {
+            "id" : 5,
+            "title": "Converting UI to code",
+            "addDescription" : true,
+            "description": "I made use the UI design to develop the Web version of the Application. I used Vue.Js, Bootstrap and SASS to complete the Frontend development."
+            
+        }
+    ]
+}
+
+
+ 
