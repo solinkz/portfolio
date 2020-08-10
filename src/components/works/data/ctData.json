@@ -2,7 +2,7 @@
     "title" : "Campustalkative",
     "description": "Campustalkative is an application that aims to help people get the closest place to which they can get what they want to purchase.",
     "featuredImage": {
-        "url": "ct-featured-image.jpg",
+        "url": "ct-featured-image.jpgw",
         "caption": "Featured image showing mockups of CT app"
     },
     "problem":{
@@ -14,7 +14,7 @@
             "id" : 1,
             "title": "Creating Userflow diagram",
             "addDescription" : true,
-            "image" : "ct-user-flow.jpg",
+            "image" : "ct-user-flow.jpgw",
             "caption": "User flow diagram",
             "description": "My colleague and I contributed in creating the Userflow diagram of Campustalkative. This was essential both to the design and development of the application"
         },
@@ -29,14 +29,14 @@
             "id" : 3,
             "title": "High Fidelity Mockups",
             "addDescription" : true,
-            "image" : "ct-hifi.jpg",
+            "image" : "ct-hifi.jpgw",
             "caption": "High Fidelity Mockups"
         },
         {
             "id" : 4,
             "title": "Prototyping",
             "addDescription" : true,
-            "image" : "ct-prototype.jpg",
+            "image" : "ct-prototype.jpgw",
             "caption": "App prototyping"
         },
        
