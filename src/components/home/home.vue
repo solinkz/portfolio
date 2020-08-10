@@ -112,7 +112,7 @@
                                 <div class="ball"></div>
                                 <h3>UI UX Design</h3>
                                 <p>
-                                        Lorem mauris amet sed dictum pharetra, ac quis hendrerit. Arcu tristique suspendisse in sodales pellentesque integer convallis dolor. 
+                                    I love creating beautiful User Interfaces which are simple to use and makes users happy. The goal when ever I design is to make sure aesthetic matches up to the required functionality
                                 </p>
                             </div>
                         </div>
@@ -126,7 +126,7 @@
                                 <div class="ball"></div>
                                 <h3>Frontend Dev.</h3>
                                 <p>
-                                        Lorem mauris amet sed dictum pharetra, ac quis hendrerit. Arcu tristique suspendisse in sodales pellentesque integer convallis dolor. 
+                                    I enjoy bringing my ideas to life, Creating clean codes and making sure a website looks nice on a browser both on Mobile and on the PC.
                                 </p>
                             </div>
                         </div>
@@ -140,7 +140,7 @@
                                 <div class="ball"></div>
                                 <h3>Graphic Design</h3>
                                 <p>
-                                        Lorem mauris amet sed dictum pharetra, ac quis hendrerit. Arcu tristique suspendisse in sodales pellentesque integer convallis dolor. 
+                                    I am really passionate about Designing as a whole and bring ideas to life, this include creating beautiful designs for Brand and branding purposes or illustrations.
                                 </p>
                             </div>
                         </div>

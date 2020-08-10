@@ -1,6 +1,7 @@
 import home from './home/home.vue'
 import afgras from './works/afgras'
 import lonux from './works/lonux'
+import campustalkative from './works/campustalkative'
 
 
 export const routes = [
@@ -19,5 +20,9 @@ export const routes = [
     {
         path: '/lonux', 
         component: lonux
+    },
+    {
+        path: '/campustalkative', 
+        component: campustalkative
     },
 ]
