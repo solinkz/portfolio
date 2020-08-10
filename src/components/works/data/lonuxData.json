@@ -3,7 +3,7 @@
     "description": "Lonux is an application that aims to help people get the closest place to which they can get what they want to purchase.",
     "featuredImage": {
         "url": "lonux-featured-image.jpg",
-        "caption": "Featured image showing a mockup of Login page"
+        "caption": "Featured image showing a mockup of search page"
     },
     "problem":{
         "description": "The challenge was to create a simple interface that feels like a simple search system where users can search for what they need and then get the location and direction to the closest place.",
