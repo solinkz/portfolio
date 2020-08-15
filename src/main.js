@@ -15,7 +15,8 @@ Vue.config.productionTip = false
 Vue.mixin({
   data(){
     return{
-      pathOrigin: window.location.origin
+      pathOrigin: window.location.origin,
+      
     }
   }
 });

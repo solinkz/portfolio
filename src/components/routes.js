@@ -25,4 +25,16 @@ export const routes = [
         path: '/campustalkative', 
         component: campustalkative
     },
+    {
+        path: '/services',
+        component: home
+    },
+    {
+        path: '/portfolio',
+        component: home
+    },
+    {
+        path: '/contact',
+        component: home
+    }
 ]

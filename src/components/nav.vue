@@ -13,17 +13,20 @@
 
             <div class="collapse navbar-collapse" :class="{'active': showNav == true}" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto" @mouseleave="showOffset = false">
-                    <li class="nav-item active">
-                        <router-link tag="a" class="nav-link" to="/home" @mouseover="hover">Home<span class="sr-only">(current)</span></router-link >
+                    <li class="nav-item active"  @mouseover="hover">
+                        <router-link tag="a" class="nav-link" to="/home" >Home<span class="sr-only">(current)</span></router-link >
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services"  @mouseover="hover">Services</a>
+                    <li class="nav-item" @mouseover="hover">
+                        <!-- <a class="nav-link" href="#services"  @mouseover="hover">Services</a> -->
+                        <router-link tag="a" class="nav-link" to="/services" > Services</router-link>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio" @mouseover="hover">My works</a>
+                    <li class="nav-item" @mouseover="hover">
+                        <!-- <a class="nav-link" href="#portfolio" @mouseover="hover">My works</a> -->
+                        <router-link tag="a" class="nav-link" to="/portfolio" > My Works</router-link>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact" @mouseover="hover">Contact</a>
+                    <li class="nav-item" @mouseover="hover">
+                        <!-- <a class="nav-link" href="#contact" @mouseover="hover">Contact</a> -->
+                        <router-link tag="a" class="nav-link" to="/contact" >Contact </router-link>
                     </li>
                
                 </ul>
@@ -45,7 +48,7 @@ export default {
     },
     methods: {
         hover(ev){
-            
+            console.log('hover');
             this.offset = ev.target.offsetLeft;
             this.showOffset = true;
         },
